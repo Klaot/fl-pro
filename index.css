@@ -1,4 +1,5 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     padding: 0;
 }
@@ -73,6 +74,7 @@ body {
 }
 
 .header-info h1 {
+    font-family: 'Montserrat', sans-serif;
     padding-top: 215px;
     margin: 0;
     font-size: 45px;
@@ -80,7 +82,7 @@ body {
     color: #fff;
 }
 .header-info h3 {
-    font-size: 25px;
+    font-size: 12px;
     line-height: 45px;
     color: #fff;
     padding-bottom: 270px;
@@ -89,6 +91,7 @@ body {
 /* expectations 2 BLOCK*/
 
 .expectations h2 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 140px;
     margin-bottom: 75px;
@@ -137,6 +140,7 @@ body {
 }
 
 .guarantees h2 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 140px;
     margin-bottom: 125px;
@@ -188,10 +192,11 @@ body {
     background: #100a339d;
     color: #fff;
     border-radius: 8px;
-    padding: 0 60px 61px 80px;
+    padding: 0 70px 61px 80px;
 }
 
 .assurance-info h2 {
+    font-family: 'Montserrat', sans-serif;
     padding-top: 62px;
     margin-bottom: 62px;
     font-size: 25px;
