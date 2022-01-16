@@ -1,0 +1,171 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+/* navigation */
+
+.nav-header {
+    max-width: 1600px;
+    padding-block: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #05022D;
+}
+
+.nav {
+    background: #05022D;
+}
+
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 15px;
+}
+
+.nav-number {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding-inline: 10px;
+}
+
+.nav-menu-social {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-social a {
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 5px;
+}
+
+/* header */
+
+.header {
+    background-image: linear-gradient(to top, rgba(44, 30, 110, 0.56), rgba(44, 30, 110, 0.56)), url('./img/walppaer.png');
+    background-size: cover;
+}
+
+.header-info {
+    max-width: 980px;
+    margin: auto;
+}
+
+.header-info h1 {
+    padding-top: 215px;
+    margin: 0;
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+}
+.header-info h3 {
+    font-size: 25px;
+    line-height: 45px;
+    color: #fff;
+    padding-bottom: 270px;
+}
+
+/* expectations 2 BLOCK*/
+
+.expectations h2 {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 75px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.expectations-all-paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.expectations-info {
+    max-width: 500px;
+    
+}
+
+.TwoBlockImage {
+    max-width: 570px;
+    max-height: 570px;
+}
+
+.expectations-paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expectations-paragraph img {
+    width: 25px;
+    height: 31px;
+    margin-inline: 10px 20px;
+}
+
+.expectations-paragraph p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/* guarantees */
+
+.guarantees {
+    padding-bottom: 140px;
+}
+
+.guarantees h2 {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 125px;
+}
+
+.guarantees-all-paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.guarantees-paragraph-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.guarantees-paragraph-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.guarantees-paragraph {
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.guarantees-paragraph img {
+   height: 80px;
+}
