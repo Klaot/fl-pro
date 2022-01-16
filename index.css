@@ -169,3 +169,37 @@ body {
 .guarantees-paragraph img {
    height: 80px;
 }
+
+
+/* assurance */
+
+.assurance {
+    background-image: linear-gradient(to top, rgba(44, 30, 110, 0.56), rgba(44, 30, 110, 0.56)), 
+    url('./img/walppaper2.png');
+    background-size: cover;
+    padding-top: 133px;
+    padding-bottom: 132px;
+}
+
+.assurance-info {
+    margin: auto;
+    max-width: 650px;
+    text-align: start;
+    background: #100a339d;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0 60px 61px 80px;
+}
+
+.assurance-info h2 {
+    padding-top: 62px;
+    margin-bottom: 62px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.assurance-info p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
